@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Gleb/CLionProjects/GTL/GsArray.h
+array
+-
+
+/Users/Gleb/CLionProjects/GTL/GsVector.h
+iostream
+-
+initializer_list
+-
+
+/Users/Gleb/CLionProjects/GTL/main.cpp
+iostream
+-
+vector
+-
+GsVector.h
+/Users/Gleb/CLionProjects/GTL/GsVector.h
+GsArray.h
+/Users/Gleb/CLionProjects/GTL/GsArray.h
+chrono
+-
+
