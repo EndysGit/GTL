@@ -66,17 +66,13 @@ void testGsVector()
     for (int i(0); i < vec.size(); ++i)
         std::cout << vec[i] << ' ';
     std::cout << '\n';
-}
-
-int main() {
-    Timer t;
     GsVector<int> vec {1,2,3};
     for (size_t index(0); index < vec.size(); ++index)
         std::cout << vec[index] << ' ';
     int x = 2;
     vec.insert(1, x);
     std::cout << '\n';
-     for (size_t index(0); index < vec.size(); ++index)
+    for (size_t index(0); index < vec.size(); ++index)
         std::cout << vec[index] << ' ';
     std::cout << '\n';
     vec.push_back(x);
@@ -88,6 +84,11 @@ int main() {
         std::cout << vec[index] << ' ';
     std::cout << '\n';
     vec.pop_back();
+}
+
+int main() {
+    Timer t;
+    
     std::cout << t.elapsed();
     return 0;
 }
