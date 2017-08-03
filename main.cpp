@@ -66,29 +66,29 @@ void testGsVector()
     for (int i(0); i < vec.size(); ++i)
         std::cout << vec[i] << ' ';
     std::cout << '\n';
-    GsVector<int> vec {1,2,3};
-    for (size_t index(0); index < vec.size(); ++index)
-        std::cout << vec[index] << ' ';
+    GsVector<int> vec3 {1,2,3};
+    for (size_t index(0); index < vec3.size(); ++index)
+        std::cout << vec3[index] << ' ';
     int x = 2;
-    vec.insert(1, x);
+    vec3.insert(1, x);
     std::cout << '\n';
-    for (size_t index(0); index < vec.size(); ++index)
-        std::cout << vec[index] << ' ';
+    for (size_t index(0); index < vec3.size(); ++index)
+        std::cout << vec3[index] << ' ';
     std::cout << '\n';
-    vec.push_back(x);
-    for (size_t index(0); index < vec.size(); ++index)
-        std::cout << vec[index] << ' ';
+    vec3.push_back(x);
+    for (size_t index(0); index < vec3.size(); ++index)
+        std::cout << vec3[index] << ' ';
     std::cout << '\n';
-    vec.erase(4);
-    for (size_t index(0); index < vec.size(); ++index)
-        std::cout << vec[index] << ' ';
+    vec3.erase(4);
+    for (size_t index(0); index < vec3.size(); ++index)
+        std::cout << vec3[index] << ' ';
     std::cout << '\n';
-    vec.pop_back();
+    vec3.pop_back();
 }
 
 int main() {
     Timer t;
-    
+    GsArray<int, 3> arr {1,2,3};
     std::cout << t.elapsed();
     return 0;
 }

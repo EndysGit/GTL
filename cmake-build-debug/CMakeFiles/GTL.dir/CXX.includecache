@@ -7,7 +7,7 @@
 #IncludeRegexTransform: 
 
 /Users/Gleb/CLionProjects/GTL/GsArray.h
-array
+initializer_list
 -
 
 /Users/Gleb/CLionProjects/GTL/GsVector.h

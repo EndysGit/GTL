@@ -5,12 +5,15 @@
 #ifndef GTL_GSARRAY_H
 #define GTL_GSARRAY_H
 
+#include <initializer_list>
+
 namespace gtl
 {
     template <class T, size_t size>
     class GsArray
     {
     public:
+        GsArray(const std::initializer_list<T>& list);
         virtual ~GsArray() {}
 
         T& operator[](size_t size_in);
@@ -51,6 +54,17 @@ namespace gtl
     bool operator>=(const GsArray<T, size> &v1, const GsArray<T, size> &v2);
 
 
+    template <class T, size_t size>
+    GsArray<T, size>::GsArray(const std::initializer_list<T> &list) {
+        if (list.size() > size)
+            throw "Initializer list larger than array";
+        size_t counter = 0;
+       for (const auto &element : list )
+       {
+           m_data[counter] = element;
+           ++counter;
+       }
+    }
     template <class T, size_t size>
     inline const size_t GsArray<T, size>::length() const { return size; }
 
