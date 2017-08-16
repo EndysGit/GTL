@@ -165,7 +165,7 @@ namespace gtl {
     private:
         size_t m_length;
         size_t m_capacity;
-        value_type *m_data;
+        pointer m_data;
     };
 
     template<class T>
@@ -200,10 +200,11 @@ namespace gtl {
     template<class T>
     GsVector<T>::GsVector(GsVector &&vector) : GsVector() {
         gsSwap(*this, vector);
+        vector.clear();
     }
 
     template<class T>
-    GsVector<T>::GsVector(const std::initializer_list<T> &list) {
+    GsVector<T>::GsVector(const std::initializer_list<value_type > &list) {
         m_data = new T[list.size()];
         m_length = list.size();
 
@@ -215,19 +216,23 @@ namespace gtl {
     }
 
     template<class T>
-    GsVector<T> &GsVector<T>::operator=(GsVector vector) {
+    GsVector<T>&
+    GsVector<T>::operator=(GsVector vector) {
         gsSwap(*this, vector);
         return *this;
     }
 
     template<class T>
-    GsVector<T> &GsVector<T>::operator=(GsVector &&vector) {
+    GsVector<T>&
+    GsVector<T>::operator=(GsVector &&vector) {
         gsSwap(*this, vector);
+        vector.clear();
         return *this;
     }
 
     template<class T>
-    GsVector<T> &GsVector<T>::operator=(const std::initializer_list<T> &list) {
+    GsVector<T>&
+    GsVector<T>::operator=(const std::initializer_list<value_type> &list) {
         if (m_data)
             delete[] m_data;
 
@@ -244,7 +249,8 @@ namespace gtl {
     }
 
     template<class T>
-    typename GsVector<T>::reference GsVector<T>::operator[](size_t size) {
+    typename GsVector<T>::reference
+    GsVector<T>::operator[](size_t size) {
         if (size < 0 && size >= m_length)
             throw std::out_of_range("Index out of range");
 
@@ -252,7 +258,8 @@ namespace gtl {
     }
 
     template<class T>
-    typename GsVector<T>::const_reference GsVector<T>::operator[](size_t size) const {
+    typename GsVector<T>::const_reference
+    GsVector<T>::operator[](size_t size) const {
         if (size < 0 && size >= m_length)
             throw std::out_of_range("Index out of range");
 
@@ -260,7 +267,8 @@ namespace gtl {
     }
 
     template<class T>
-    typename GsVector<T>::reference GsVector<T>::at(size_t size) {
+    typename GsVector<T>::reference
+    GsVector<T>::at(size_t size) {
         if (size < 0 && size >= m_length)
             throw std::out_of_range("Index out of range");
 
@@ -268,7 +276,8 @@ namespace gtl {
     }
 
     template<class T>
-    typename GsVector<T>::const_reference GsVector<T>::at(size_t size) const {
+    typename GsVector<T>::const_reference
+    GsVector<T>::at(size_t size) const {
         if (size < 0 && size >= m_length)
             throw std::out_of_range("Index out of range");
 
@@ -276,10 +285,12 @@ namespace gtl {
     }
 
     template<class T>
-    size_t GsVector<T>::size() const { return m_length; }
+    size_t
+    GsVector<T>::size() const { return m_length; }
 
     template<class T>
-    void GsVector<T>::resize(size_t size) {
+    void
+    GsVector<T>::resize(size_t size) {
         if (size > m_capacity) {
             GsVector<T> temp(size);
 
@@ -292,11 +303,13 @@ namespace gtl {
     }
 
     template<class T>
-    size_t GsVector<T>::capacity() const { return m_capacity; }
+    size_t
+    GsVector<T>::capacity() const { return m_capacity; }
 
 // TODO : Refactor
     template<class T>
-    void GsVector<T>::reserve(size_t size) {
+    void
+    GsVector<T>::reserve(size_t size) {
         m_capacity = size;
 
         T *temp = new T[size];
@@ -312,7 +325,8 @@ namespace gtl {
     }
 
     template<class T>
-    void GsVector<T>::insert(size_t into, typename GsVector<T>::const_reference inserted) {
+    void
+    GsVector<T>::insert(size_t into, typename GsVector<T>::const_reference inserted) {
         if (into > m_length)
             throw std::out_of_range("Index out of range");
 
@@ -345,7 +359,8 @@ namespace gtl {
 
 // TODO : complete
     template<class T>
-    void GsVector<T>::insert(size_t into, typename GsVector<T>::r_reference inserted)
+    void
+    GsVector<T>::insert(size_t into, typename GsVector<T>::r_reference inserted)
     {
         if (into > m_length)
             throw std::out_of_range("Index out of range");
@@ -375,7 +390,8 @@ namespace gtl {
     }
 
     template<class T>
-    void GsVector<T>::erase(size_t size) {
+    void
+    GsVector<T>::erase(size_t size) {
         if (size >= m_length)
             throw std::out_of_range("Out of range");
 
@@ -392,16 +408,19 @@ namespace gtl {
     }
 
     template<class T>
-    void GsVector<T>::reverse() {
+    void
+    GsVector<T>::reverse() {
         for (ptrdiff_t index = 0; index < m_length / 2; ++index)
             std::swap(m_data[index], m_data[m_length - 1 - index]);
     }
 
     template<class T>
-    bool GsVector<T>::isEmpty() { return (!m_length) ? true : false; }
+    bool
+    GsVector<T>::isEmpty() { return (!m_length) ? true : false; }
 
     template <class T>
-    void GsVector<T>::clear()
+    void
+    GsVector<T>::clear()
     {
         m_length = 0;
         m_capacity = 0;
@@ -413,24 +432,28 @@ namespace gtl {
     }
 
     template<class T>
-    void gsSwap(GsVector<T> &v1, GsVector<T> &v2) {
+    void
+    gsSwap(GsVector<T> &v1, GsVector<T> &v2) {
         std::swap(v1.m_length, v2.m_length);
         std::swap(v1.m_capacity, v2.m_capacity);
         std::swap(v1.m_data, v2.m_data);
     }
 
     template<class T>
-    void GsVector<T>::push_back(typename GsVector<T>::const_reference element) {
+    void
+    GsVector<T>::push_back(typename GsVector<T>::const_reference element) {
         insert(m_length, element);
     }
 
     template<class T>
-    void GsVector<T>::push_back(typename GsVector<T>::r_reference element) {
+    void
+    GsVector<T>::push_back(typename GsVector<T>::r_reference element) {
         insert(m_length, element);
     }
 
     template<class T>
-    T GsVector<T>::pop_back() {
+    typename GsVector<T>::value_type
+    GsVector<T>::pop_back() {
         if (isEmpty())
             throw std::out_of_range("GsVector is empty");
 
@@ -450,7 +473,8 @@ namespace gtl {
 
 
     template<class T>
-    bool operator==(const GsVector<T> &v1, const GsVector<T> &v2) {
+    bool
+    operator==(const GsVector<T> &v1, const GsVector<T> &v2) {
         if (v1.size() == v2.size())
             for (ptrdiff_t index(0); index < v1.size(); ++index)
                 if (v1[index] != v2[index])
@@ -459,27 +483,32 @@ namespace gtl {
     }
 
     template<class T>
-    bool operator!=(const GsVector<T> &v1, const GsVector<T> &v2) {
+    bool
+    operator!=(const GsVector<T> &v1, const GsVector<T> &v2) {
         return !(v1 == v2);
     }
 
     template<class T>
-    bool operator<(const GsVector<T> &v1, const GsVector<T> &v2) {
+    bool
+    operator<(const GsVector<T> &v1, const GsVector<T> &v2) {
         return v1.size() < v2.size();
     }
 
     template<class T>
-    bool operator>(const GsVector<T> &v1, const GsVector<T> &v2) {
+    bool
+    operator>(const GsVector<T> &v1, const GsVector<T> &v2) {
         return v1.size() > v2.size();
     }
 
     template<class T>
-    bool operator<=(const GsVector<T> &v1, const GsVector<T> &v2) {
+    bool
+    operator<=(const GsVector<T> &v1, const GsVector<T> &v2) {
         return v1.size() <= v2.size();
     }
 
     template<class T>
-    bool operator>=(const GsVector<T> &v1, const GsVector<T> &v2) {
+    bool
+    operator>=(const GsVector<T> &v1, const GsVector<T> &v2) {
         return v1.size() >= v2.size();
     }
 } // gtl

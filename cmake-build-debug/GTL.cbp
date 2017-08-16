@@ -88,6 +88,9 @@
 		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsIterator.h">
 			<Option target="GTL"/>
 		</Unit>
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsStack.h">
+			<Option target="GTL"/>
+		</Unit>
 		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsVector.h">
 			<Option target="GTL"/>
 		</Unit>

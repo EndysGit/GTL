@@ -85,10 +85,13 @@
 		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsArray.h">
 			<Option target="GTL"/>
 		</Unit>
-		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsVector.h">
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsIterator.h">
 			<Option target="GTL"/>
 		</Unit>
-		<Unit filename="/Users/Gleb/CLionProjects/GTL/cmake-build-debug/GsIterator.h">
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsStack.h">
+			<Option target="GTL"/>
+		</Unit>
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsVector.h">
 			<Option target="GTL"/>
 		</Unit>
 		<Unit filename="/Users/Gleb/CLionProjects/GTL/main.cpp">

@@ -10,6 +10,12 @@
 initializer_list
 -
 
+/Users/Gleb/CLionProjects/GTL/GsStack.h
+iostream
+-
+vector
+-
+
 /Users/Gleb/CLionProjects/GTL/GsVector.h
 iostream
 -
@@ -23,8 +29,12 @@ vector
 -
 GsVector.h
 /Users/Gleb/CLionProjects/GTL/GsVector.h
+iomanip
+-
 GsArray.h
 /Users/Gleb/CLionProjects/GTL/GsArray.h
+GsStack.h
+/Users/Gleb/CLionProjects/GTL/GsStack.h
 chrono
 -
 

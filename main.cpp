@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
 #include "GsVector.h"
+#include <iomanip>
 #include "GsArray.h"
+#include "GsStack.h"
 #include <chrono>
 
 
@@ -35,6 +37,7 @@ public:
 void testGsVector()
 {
     GsVector<int> vec {1,2,3};
+    std::cout << "Vector1" << '\n';
     for (int i(0); i < vec.size(); ++i)
         std::cout << vec[i] << ' ';
     std::cout << '\n';
@@ -42,11 +45,27 @@ void testGsVector()
     for (int i(0); i < vec.size(); ++i)
         std::cout << vec1[i] << ' ';
     std::cout << '\n';
+    std::cout << "Vector 2" << '\n';
     GsVector<int> vec2;
     vec2 = vec1;
+    std::cout << "Vector 2 after copy assignment with vector1" << '\n';
     for (int i(0); i < vec.size(); ++i)
         std::cout << vec2[i] << ' ';
+    std::cout << '\n';
+    std::cout << "Vector1 after move assignment with vector2" << '\n';
+    for (int i(0); i < vec1.size(); ++i)
+        std::cout << vec1[i] << ' ';
+    std::cout << '\n';
+    GsVector<int> vec4 {std::move(vec1)};
+    std::cout << "Vector2 after move assignment with vector1" << '\n';
+    for (int i(0); i < vec4.size(); ++i)
+        std::cout << vec4[i] << ' ';
+    std::cout << '\n';
+    std::cout << "Vector1 after move assignment with vector2" << '\n';
+    for (int i(0); i < vec1.size(); ++i)
+        std::cout << vec1[i] << ' ';
     vec2.reverse();
+    std::cout << '\n';
     std::cout << '\n';
     for (int i(0); i < vec.size(); ++i)
         std::cout << vec2[i] << ' ';
@@ -87,8 +106,19 @@ void testGsVector()
 }
 
 int main() {
-    Timer t;
-    GsArray<int, 3> arr {1,2,3};
-    std::cout << t.elapsed();
+    testGsVector();
+    GsStack<int> gsstack;
+
+    std::cout << std::boolalpha << gsstack.isEmpty() << ' ' << gsstack.size() << '\n';
+
+    for (int i(0); i < 10; ++i)
+        gsstack.push(i + 1);
+    std::cout << gsstack.top() << '\n';
+    std::cout << std::boolalpha << gsstack.isEmpty() << ' ' << gsstack.size() <<  '\n';
+
+    for (int i(0); i < 10; ++i)
+        gsstack.pop();
+    std::cout << std::boolalpha << gsstack.isEmpty() << ' ' << gsstack.size() <<  '\n';
+
     return 0;
 }
