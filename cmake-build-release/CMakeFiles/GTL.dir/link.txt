@@ -1,1 +1,1 @@
-/usr/bin/g++   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/GTL.dir/main.cpp.o  -o GTL 
+/usr/bin/g++   -std=c++14  -framework OpenGL -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/GTL.dir/source/src/main.cpp.o CMakeFiles/GTL.dir/source/src/IGsException.cpp.o  -o GTL 

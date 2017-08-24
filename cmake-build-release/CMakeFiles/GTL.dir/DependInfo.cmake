@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Gleb/CLionProjects/GTL/main.cpp" "/Users/Gleb/CLionProjects/GTL/cmake-build-release/CMakeFiles/GTL.dir/main.cpp.o"
+  "/Users/Gleb/CLionProjects/GTL/source/src/IGsException.cpp" "/Users/Gleb/CLionProjects/GTL/cmake-build-release/CMakeFiles/GTL.dir/source/src/IGsException.cpp.o"
+  "/Users/Gleb/CLionProjects/GTL/source/src/main.cpp" "/Users/Gleb/CLionProjects/GTL/cmake-build-release/CMakeFiles/GTL.dir/source/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

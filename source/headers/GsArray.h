@@ -5,9 +5,6 @@
 #ifndef GTL_GSARRAY_H
 #define GTL_GSARRAY_H
 
-#include <initializer_list>
-
-
 /*
 
         GsArray sinopsis
@@ -66,8 +63,49 @@
 
  */
 
+#include <initializer_list>
+#include "GsArray.h"
+
 namespace gtl
 {
+    class GsArrayAssignException : public IGsException
+    {
+    public:
+        GsArrayAssignException() {}
+
+        explicit GsArrayAssignException(const std::string &);
+        explicit GsArrayAssignException(const char *);
+
+        GsArrayAssignException(const GsArrayAssignException &);
+
+        virtual ~GsArrayAssignException() {}
+
+        virtual const char *what() const;
+
+    private:
+        std::string m_exception_definition;
+    };
+
+    GsArrayAssignException::GsArrayAssignException(const std::string &exception_definition)
+            : m_exception_definition{exception_definition}
+    {}
+
+    GsArrayAssignException::GsArrayAssignException(const char *exception_definition)
+            : m_exception_definition{exception_definition}
+    {}
+
+    GsArrayAssignException::GsArrayAssignException(const GsArrayAssignException &gsArrayAssignException)
+            : m_exception_definition{gsArrayAssignException.m_exception_definition}
+    {}
+
+    const char*
+    GsArrayAssignException::what() const
+    {
+        printf("%s", m_exception_definition.c_str());
+    }
+
+
+
     template <class T, size_t size>
     class GsArray
     {
@@ -121,10 +159,10 @@ namespace gtl
 
 
     template <class T, size_t size>
-    GsArray<T, size>::GsArray(const std::initializer_list<T> &list)
+    GsArray<T, size>::GsArray(const std::initializer_list<value_type > &list)
     {
         if (list.size() > size)
-            throw "Initializer list larger than array";
+            throw GsArrayAssignException("Initializer list larger than array");
         size_t counter = 0;
         for (const auto &element : list )
         {
@@ -138,10 +176,12 @@ namespace gtl
     GsArray<T, size>::length() const { return size; }
 
     template <class T, size_t size>
+    inline
     typename GsArray<T, size>::pointer
     GsArray<T, size>::getArray() { return m_data; }
 
     template <class T, size_t size>
+    inline
     typename GsArray<T, size>::reference
     GsArray<T, size>::operator[](size_t size_in)
     {
@@ -149,6 +189,7 @@ namespace gtl
     }
 
     template <class T, size_t size>
+    inline
     typename GsArray<T, size>::const_reference
     GsArray<T, size>::operator[](size_t size_in) const
     {
@@ -156,6 +197,7 @@ namespace gtl
     }
 
     template <class T, size_t size>
+    inline
     typename GsArray<T, size>::reference
     GsArray<T, size>::at(size_t size_in)
     {
@@ -163,6 +205,7 @@ namespace gtl
     }
 
     template <class T, size_t size>
+    inline
     typename GsArray<T, size>::const_reference
     GsArray<T, size>::at(size_t size_in) const
     {
@@ -190,12 +233,13 @@ namespace gtl
     GsArray<T, size>::swap(GsArray* array)
     {
         if (size != array->length())
-            throw "arrays not fit each other";
+            throw GsArrayAssignException("Arrays not fit each other");
         std::swap(this->m_data, array->m_data);
     }
 
 
     template<class T, size_t size>
+    inline
     bool
     operator==(const GsArray<T, size> &v1, const GsArray<T, size> &v2)
     {
@@ -206,6 +250,7 @@ namespace gtl
     }
 
     template<class T, size_t size>
+    inline
     bool
     operator!=(const GsArray<T, size> &v1, const GsArray<T, size> &v2)
     {
@@ -213,6 +258,7 @@ namespace gtl
     }
 
     template<class T, size_t size>
+    inline
     bool
     operator<(const GsArray<T, size> &v1, const GsArray<T, size> &v2)
     {
@@ -220,6 +266,7 @@ namespace gtl
     }
 
     template<class T, size_t size>
+    inline
     bool
     operator>(const GsArray<T, size> &v1, const GsArray<T, size> &v2)
     {
@@ -227,6 +274,7 @@ namespace gtl
     }
 
     template<class T, size_t size>
+    inline
     bool
     operator<=(const GsArray<T, size> &v1, const GsArray<T, size> &v2)
     {
@@ -234,6 +282,7 @@ namespace gtl
     }
 
     template<class T, size_t size>
+    inline
     bool
     operator>=(const GsArray<T, size> &v1, const GsArray<T, size> &v2)
     {

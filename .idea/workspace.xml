@@ -13,13 +13,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c100fea-622f-4808-b43c-e16dd4284570" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/headers/IGsException.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/src/IGsException.cpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/GTL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.7.1/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.7.1/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.7.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.7.1/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.7.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.7.1/CompilerIdCXX/a.out" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GsArray.h" afterPath="$PROJECT_DIR$/source/headers/GsArray.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GsIterator.h" afterPath="$PROJECT_DIR$/source/headers/GsIterator.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GsStack.h" afterPath="$PROJECT_DIR$/source/headers/GsStack.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GsVector.h" afterPath="$PROJECT_DIR$/source/headers/GsVector.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/source/src/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GsArray.h" afterPath="$PROJECT_DIR$/GsArray.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GsVector.h" afterPath="$PROJECT_DIR$/GsVector.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/GTL.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/GTL.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/GTL.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/GTL.cbp" afterPath="$PROJECT_DIR$/cmake-build-release/GTL.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/Makefile" afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -30,99 +87,157 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+        <entry file="file://$PROJECT_DIR$/source/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1654">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GsVector.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GsVector.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3299">
-              <caret line="202" column="23" lean-forward="false" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
+            <state relative-caret-position="17">
+              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsVector.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/headers/GsVector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3087">
+              <caret line="238" column="28" lean-forward="true" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
               <folding>
                 <element signature="e#1943#1962#0" expanded="true" />
-                <element signature="e#2020#2029#0" expanded="true" />
-                <element signature="e#2063#2075#0" expanded="true" />
-                <element signature="e#2141#2150#0" expanded="true" />
-                <element signature="e#3961#3970#0" expanded="true" />
-                <element signature="e#4051#4060#0" expanded="true" />
-                <element signature="e#4141#4150#0" expanded="true" />
-                <element signature="e#4230#4239#0" expanded="true" />
-                <element signature="e#4319#4328#0" expanded="true" />
-                <element signature="e#4409#4418#0" expanded="true" />
-                <element signature="e#4500#4509#0" expanded="true" />
-                <element signature="e#4802#4811#0" expanded="true" />
-                <element signature="e#4946#4955#0" expanded="true" />
-                <element signature="e#5261#5270#0" expanded="true" />
-                <element signature="e#5406#5415#0" expanded="true" />
-                <element signature="e#5577#5586#0" expanded="true" />
-                <element signature="e#5982#5991#0" expanded="true" />
-                <element signature="e#6221#6230#0" expanded="true" />
-                <element signature="e#6472#6481#0" expanded="true" />
-                <element signature="e#6703#6712#0" expanded="true" />
-                <element signature="e#6946#6955#0" expanded="true" />
-                <element signature="e#7031#7040#0" expanded="true" />
-                <element signature="e#7365#7374#0" expanded="true" />
-                <element signature="e#7475#7484#0" expanded="true" />
-                <element signature="e#7812#7821#0" expanded="true" />
-                <element signature="e#8725#8734#0" expanded="true" />
-                <element signature="e#10352#10361#0" expanded="true" />
+                <element signature="e#2046#2055#0" expanded="true" />
+                <element signature="e#2089#2101#0" expanded="true" />
+                <element signature="e#2167#2176#0" expanded="true" />
+                <element signature="e#3994#4003#0" expanded="true" />
+                <element signature="e#4084#4093#0" expanded="true" />
+                <element signature="e#4174#4183#0" expanded="true" />
+                <element signature="e#4263#4272#0" expanded="true" />
+                <element signature="e#4352#4361#0" expanded="true" />
+                <element signature="e#4442#4451#0" expanded="true" />
+                <element signature="e#4533#4542#0" expanded="true" />
+                <element signature="e#4835#4844#0" expanded="true" />
+                <element signature="e#4979#4988#0" expanded="true" />
+                <element signature="e#5294#5303#0" expanded="true" />
+                <element signature="e#5526#5535#0" expanded="true" />
+                <element signature="e#5697#5706#0" expanded="true" />
+                <element signature="e#6102#6111#0" expanded="true" />
+                <element signature="e#6352#6361#0" expanded="true" />
+                <element signature="e#6614#6623#0" expanded="true" />
+                <element signature="e#6856#6865#0" expanded="true" />
+                <element signature="e#7110#7119#0" expanded="true" />
+                <element signature="e#7206#7215#0" expanded="true" />
+                <element signature="e#7540#7549#0" expanded="true" />
+                <element signature="e#7661#7670#0" expanded="true" />
+                <element signature="e#7998#8007#0" expanded="true" />
+                <element signature="e#8889#8898#0" expanded="true" />
+                <element signature="e#10505#10514#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GsArray.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GsArray.h">
+        <entry file="file://$PROJECT_DIR$/source/headers/GsArray.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3553">
-              <caret line="209" column="37" lean-forward="false" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="37" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="38" lean-forward="false" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
               <folding>
-                <element signature="e#3103#3125#0" expanded="true" />
-                <element signature="e#3218#3240#0" expanded="true" />
-                <element signature="e#3693#3715#0" expanded="true" />
-                <element signature="e#3821#3843#0" expanded="true" />
-                <element signature="e#3992#4014#0" expanded="true" />
-                <element signature="e#4175#4197#0" expanded="true" />
-                <element signature="e#4338#4360#0" expanded="true" />
-                <element signature="e#4513#4535#0" expanded="true" />
-                <element signature="e#4716#4738#0" expanded="true" />
-                <element signature="e#4938#4960#0" expanded="true" />
+                <element signature="e#1670#1697#0" expanded="true" />
+                <element signature="e#4204#4226#0" expanded="true" />
+                <element signature="e#4319#4341#0" expanded="true" />
+                <element signature="e#4828#4850#0" expanded="true" />
+                <element signature="e#4967#4989#0" expanded="true" />
+                <element signature="e#5149#5171#0" expanded="true" />
+                <element signature="e#5343#5365#0" expanded="true" />
+                <element signature="e#5517#5539#0" expanded="true" />
+                <element signature="e#5703#5725#0" expanded="true" />
+                <element signature="e#5906#5928#0" expanded="true" />
+                <element signature="e#6128#6150#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GsStack.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GsStack.h">
+        <entry file="file://$PROJECT_DIR$/source/headers/GsStack.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="75" column="14" lean-forward="false" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+            <state relative-caret-position="1819">
+              <caret line="107" column="10" lean-forward="false" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
               <folding>
                 <element signature="e#98#117#0" expanded="true" />
-                <element signature="e#165#174#0" expanded="true" />
-                <element signature="e#309#318#0" expanded="true" />
-                <element signature="e#1197#1206#0" expanded="true" />
-                <element signature="e#1295#1304#0" expanded="true" />
-                <element signature="e#1556#1565#0" expanded="true" />
-                <element signature="e#1693#1702#0" expanded="true" />
-                <element signature="e#2012#2021#0" expanded="true" />
-                <element signature="e#2201#2210#0" expanded="true" />
-                <element signature="e#2304#2313#0" expanded="true" />
-                <element signature="e#2393#2402#0" expanded="true" />
-                <element signature="e#2817#2826#0" expanded="true" />
-                <element signature="e#3617#3626#0" expanded="true" />
+                <element signature="e#174#183#0" expanded="true" />
+                <element signature="e#318#327#0" expanded="true" />
+                <element signature="e#1206#1215#0" expanded="true" />
+                <element signature="e#1304#1313#0" expanded="true" />
+                <element signature="e#1565#1574#0" expanded="true" />
+                <element signature="e#1702#1711#0" expanded="true" />
+                <element signature="e#2021#2030#0" expanded="true" />
+                <element signature="e#2237#2246#0" expanded="true" />
+                <element signature="e#2351#2360#0" expanded="true" />
+                <element signature="e#2444#2453#0" expanded="true" />
+                <element signature="e#2893#2902#0" expanded="true" />
+                <element signature="e#3671#3680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IGsException.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/headers/IGsException.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="e#106#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IGsException.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/src/IGsException.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsIterator.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/headers/GsIterator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding>
+                <element signature="e#134#143#0" expanded="true" />
+                <element signature="e#161#170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterator" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8720">
+              <caret line="1509" column="23" lean-forward="false" selection-start-line="1509" selection-start-column="23" selection-end-line="1509" selection-end-column="23" />
+              <folding>
+                <element signature="e#13772#13783#0" expanded="true" />
+                <element signature="e#13823#13834#0" expanded="true" />
+                <element signature="e#13973#13992#0" expanded="true" />
+                <element signature="e#14037#14050#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,22 +253,45 @@
       <list>
         <option value="$PROJECT_DIR$/GsVector.cpp" />
         <option value="$PROJECT_DIR$/templates.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/cmake-build-debug/GsIterator.h" />
-        <option value="$PROJECT_DIR$/GsArray.h" />
-        <option value="$PROJECT_DIR$/GsVector.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/GsStack.h" />
+        <option value="$PROJECT_DIR$/GsVector.h" />
+        <option value="$PROJECT_DIR$/GsArray.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch..txt" />
+        <option value="$PROJECT_DIR$/cmake/FindSDL2.cmake" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/GsException.h" />
+        <option value="$PROJECT_DIR$/source/headers/GsException.h" />
+        <option value="$PROJECT_DIR$/source/src/main.cpp" />
+        <option value="$PROJECT_DIR$/source/src/IGsException.cpp" />
+        <option value="$PROJECT_DIR$/source/headers/GsIterator.h" />
+        <option value="$PROJECT_DIR$/source/headers/GsVector.h" />
+        <option value="$PROJECT_DIR$/source/headers/GsArray.h" />
+        <option value="$PROJECT_DIR$/source/headers/GsStack.h" />
+        <option value="$PROJECT_DIR$/source/headers/IGsException.h" />
       </list>
     </option>
   </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -175,27 +313,44 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTL" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="GTL" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="GTL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GTL" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="GTL" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GTL" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="GTL" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="headers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GTL" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="GTL" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="CMake" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/headers" />
+      <recent name="$PROJECT_DIR$/source/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -212,6 +367,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.GTL">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="GTL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GTL" TARGET_NAME="GTL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GTL" RUN_TARGET_NAME="GTL">
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -323,20 +496,6 @@
       <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -410,14 +569,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="GTL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GTL" TARGET_NAME="GTL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GTL" RUN_TARGET_NAME="GTL">
-      <envs />
-      <method />
-    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.GTL" />
@@ -425,6 +576,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -435,155 +589,563 @@
       <updated>1501601120123</updated>
       <workItem from="1501601122228" duration="26286000" />
       <workItem from="1501762529441" duration="10471000" />
-      <workItem from="1502872014908" duration="16992000" />
+      <workItem from="1502872014908" duration="17168000" />
+      <workItem from="1502954702793" duration="2355000" />
+      <workItem from="1502977948160" duration="1790000" />
+      <workItem from="1502986288741" duration="1972000" />
+      <workItem from="1503009625994" duration="8003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53749000" />
+    <option name="totallyTimeSpent" value="68045000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09612278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4878837" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5121163" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.32148626" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49030694" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.4878837" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5121163" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.32148626" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23101777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49030694" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.4878837" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5121163" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.32148626" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25767368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49030694" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="GTL" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="GTL" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/source/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="1" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsVector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="120" column="52" lean-forward="false" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1943#1962#0" expanded="true" />
+            <element signature="e#2046#2055#0" expanded="true" />
+            <element signature="e#2089#2101#0" expanded="true" />
+            <element signature="e#2167#2176#0" expanded="true" />
+            <element signature="e#3994#4003#0" expanded="true" />
+            <element signature="e#4084#4093#0" expanded="true" />
+            <element signature="e#4174#4183#0" expanded="true" />
+            <element signature="e#4263#4272#0" expanded="true" />
+            <element signature="e#4352#4361#0" expanded="true" />
+            <element signature="e#4442#4451#0" expanded="true" />
+            <element signature="e#4533#4542#0" expanded="true" />
+            <element signature="e#4835#4844#0" expanded="true" />
+            <element signature="e#4979#4988#0" expanded="true" />
+            <element signature="e#5294#5303#0" expanded="true" />
+            <element signature="e#5526#5535#0" expanded="true" />
+            <element signature="e#5697#5706#0" expanded="true" />
+            <element signature="e#6102#6111#0" expanded="true" />
+            <element signature="e#6352#6361#0" expanded="true" />
+            <element signature="e#6614#6623#0" expanded="true" />
+            <element signature="e#6856#6865#0" expanded="true" />
+            <element signature="e#7110#7119#0" expanded="true" />
+            <element signature="e#7206#7215#0" expanded="true" />
+            <element signature="e#7540#7549#0" expanded="true" />
+            <element signature="e#7661#7670#0" expanded="true" />
+            <element signature="e#7998#8007#0" expanded="true" />
+            <element signature="e#8889#8898#0" expanded="true" />
+            <element signature="e#10505#10514#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GsVector.h">
+    <entry file="file://$PROJECT_DIR$/source/headers/GsArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="69" lean-forward="false" selection-start-line="123" selection-start-column="69" selection-end-line="123" selection-end-column="69" />
+          <folding>
+            <element signature="e#1670#1697#0" expanded="true" />
+            <element signature="e#4204#4226#0" expanded="true" />
+            <element signature="e#4319#4341#0" expanded="true" />
+            <element signature="e#4828#4850#0" expanded="true" />
+            <element signature="e#4967#4989#0" expanded="true" />
+            <element signature="e#5149#5171#0" expanded="true" />
+            <element signature="e#5343#5365#0" expanded="true" />
+            <element signature="e#5517#5539#0" expanded="true" />
+            <element signature="e#5703#5725#0" expanded="true" />
+            <element signature="e#5906#5928#0" expanded="true" />
+            <element signature="e#6128#6150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#98#117#0" expanded="true" />
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#318#327#0" expanded="true" />
+            <element signature="e#1206#1215#0" expanded="true" />
+            <element signature="e#1304#1313#0" expanded="true" />
+            <element signature="e#1565#1574#0" expanded="true" />
+            <element signature="e#1702#1711#0" expanded="true" />
+            <element signature="e#2021#2030#0" expanded="true" />
+            <element signature="e#2237#2246#0" expanded="true" />
+            <element signature="e#2351#2360#0" expanded="true" />
+            <element signature="e#2444#2453#0" expanded="true" />
+            <element signature="e#2893#2902#0" expanded="true" />
+            <element signature="e#3671#3680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4896">
+          <caret line="288" column="26" lean-forward="true" selection-start-line="288" selection-start-column="26" selection-end-line="288" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/IGsException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsIterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#134#143#0" expanded="true" />
+            <element signature="e#161#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7769">
+          <caret line="457" column="0" lean-forward="false" selection-start-line="457" selection-start-column="0" selection-end-line="457" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsVector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5627">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding>
+            <element signature="e#1943#1962#0" expanded="true" />
+            <element signature="e#2046#2055#0" expanded="true" />
+            <element signature="e#2089#2101#0" expanded="true" />
+            <element signature="e#2167#2176#0" expanded="true" />
+            <element signature="e#3994#4003#0" expanded="true" />
+            <element signature="e#4084#4093#0" expanded="true" />
+            <element signature="e#4174#4183#0" expanded="true" />
+            <element signature="e#4263#4272#0" expanded="true" />
+            <element signature="e#4352#4361#0" expanded="true" />
+            <element signature="e#4442#4451#0" expanded="true" />
+            <element signature="e#4533#4542#0" expanded="true" />
+            <element signature="e#4835#4844#0" expanded="true" />
+            <element signature="e#4979#4988#0" expanded="true" />
+            <element signature="e#5294#5303#0" expanded="true" />
+            <element signature="e#5526#5535#0" expanded="true" />
+            <element signature="e#5697#5706#0" expanded="true" />
+            <element signature="e#6102#6111#0" expanded="true" />
+            <element signature="e#6352#6361#0" expanded="true" />
+            <element signature="e#6614#6623#0" expanded="true" />
+            <element signature="e#6856#6865#0" expanded="true" />
+            <element signature="e#7110#7119#0" expanded="true" />
+            <element signature="e#7206#7215#0" expanded="true" />
+            <element signature="e#7540#7549#0" expanded="true" />
+            <element signature="e#7661#7670#0" expanded="true" />
+            <element signature="e#7998#8007#0" expanded="true" />
+            <element signature="e#8889#8898#0" expanded="true" />
+            <element signature="e#10505#10514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="69" lean-forward="false" selection-start-line="123" selection-start-column="69" selection-end-line="123" selection-end-column="69" />
+          <folding>
+            <element signature="e#1670#1697#0" expanded="true" />
+            <element signature="e#4204#4226#0" expanded="true" />
+            <element signature="e#4319#4341#0" expanded="true" />
+            <element signature="e#4828#4850#0" expanded="true" />
+            <element signature="e#4967#4989#0" expanded="true" />
+            <element signature="e#5149#5171#0" expanded="true" />
+            <element signature="e#5343#5365#0" expanded="true" />
+            <element signature="e#5517#5539#0" expanded="true" />
+            <element signature="e#5703#5725#0" expanded="true" />
+            <element signature="e#5906#5928#0" expanded="true" />
+            <element signature="e#6128#6150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="14" lean-forward="false" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+          <folding>
+            <element signature="e#98#117#0" expanded="true" />
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#318#327#0" expanded="true" />
+            <element signature="e#1206#1215#0" expanded="true" />
+            <element signature="e#1304#1313#0" expanded="true" />
+            <element signature="e#1565#1574#0" expanded="true" />
+            <element signature="e#1702#1711#0" expanded="true" />
+            <element signature="e#2021#2030#0" expanded="true" />
+            <element signature="e#2237#2246#0" expanded="true" />
+            <element signature="e#2351#2360#0" expanded="true" />
+            <element signature="e#2444#2453#0" expanded="true" />
+            <element signature="e#2893#2902#0" expanded="true" />
+            <element signature="e#3671#3680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsVector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5627">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding>
+            <element signature="e#1943#1962#0" expanded="true" />
+            <element signature="e#2046#2055#0" expanded="true" />
+            <element signature="e#2089#2101#0" expanded="true" />
+            <element signature="e#2167#2176#0" expanded="true" />
+            <element signature="e#3994#4003#0" expanded="true" />
+            <element signature="e#4084#4093#0" expanded="true" />
+            <element signature="e#4174#4183#0" expanded="true" />
+            <element signature="e#4263#4272#0" expanded="true" />
+            <element signature="e#4352#4361#0" expanded="true" />
+            <element signature="e#4442#4451#0" expanded="true" />
+            <element signature="e#4533#4542#0" expanded="true" />
+            <element signature="e#4835#4844#0" expanded="true" />
+            <element signature="e#4979#4988#0" expanded="true" />
+            <element signature="e#5294#5303#0" expanded="true" />
+            <element signature="e#5526#5535#0" expanded="true" />
+            <element signature="e#5697#5706#0" expanded="true" />
+            <element signature="e#6102#6111#0" expanded="true" />
+            <element signature="e#6352#6361#0" expanded="true" />
+            <element signature="e#6614#6623#0" expanded="true" />
+            <element signature="e#6856#6865#0" expanded="true" />
+            <element signature="e#7110#7119#0" expanded="true" />
+            <element signature="e#7206#7215#0" expanded="true" />
+            <element signature="e#7540#7549#0" expanded="true" />
+            <element signature="e#7661#7670#0" expanded="true" />
+            <element signature="e#7998#8007#0" expanded="true" />
+            <element signature="e#8889#8898#0" expanded="true" />
+            <element signature="e#10505#10514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="69" lean-forward="false" selection-start-line="123" selection-start-column="69" selection-end-line="123" selection-end-column="69" />
+          <folding>
+            <element signature="e#1670#1697#0" expanded="true" />
+            <element signature="e#4204#4226#0" expanded="true" />
+            <element signature="e#4319#4341#0" expanded="true" />
+            <element signature="e#4828#4850#0" expanded="true" />
+            <element signature="e#4967#4989#0" expanded="true" />
+            <element signature="e#5149#5171#0" expanded="true" />
+            <element signature="e#5343#5365#0" expanded="true" />
+            <element signature="e#5517#5539#0" expanded="true" />
+            <element signature="e#5703#5725#0" expanded="true" />
+            <element signature="e#5906#5928#0" expanded="true" />
+            <element signature="e#6128#6150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="14" lean-forward="false" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+          <folding>
+            <element signature="e#98#117#0" expanded="true" />
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#318#327#0" expanded="true" />
+            <element signature="e#1206#1215#0" expanded="true" />
+            <element signature="e#1304#1313#0" expanded="true" />
+            <element signature="e#1565#1574#0" expanded="true" />
+            <element signature="e#1702#1711#0" expanded="true" />
+            <element signature="e#2021#2030#0" expanded="true" />
+            <element signature="e#2237#2246#0" expanded="true" />
+            <element signature="e#2351#2360#0" expanded="true" />
+            <element signature="e#2444#2453#0" expanded="true" />
+            <element signature="e#2893#2902#0" expanded="true" />
+            <element signature="e#3671#3680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3553">
+          <caret line="209" column="37" lean-forward="false" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="37" />
+          <folding>
+            <element signature="e#1670#1697#0" expanded="true" />
+            <element signature="e#4204#4226#0" expanded="true" />
+            <element signature="e#4319#4341#0" expanded="true" />
+            <element signature="e#4828#4850#0" expanded="true" />
+            <element signature="e#4967#4989#0" expanded="true" />
+            <element signature="e#5149#5171#0" expanded="true" />
+            <element signature="e#5343#5365#0" expanded="true" />
+            <element signature="e#5517#5539#0" expanded="true" />
+            <element signature="e#5703#5725#0" expanded="true" />
+            <element signature="e#5906#5928#0" expanded="true" />
+            <element signature="e#6128#6150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="14" lean-forward="false" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+          <folding>
+            <element signature="e#98#117#0" expanded="true" />
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#318#327#0" expanded="true" />
+            <element signature="e#1206#1215#0" expanded="true" />
+            <element signature="e#1304#1313#0" expanded="true" />
+            <element signature="e#1565#1574#0" expanded="true" />
+            <element signature="e#1702#1711#0" expanded="true" />
+            <element signature="e#2021#2030#0" expanded="true" />
+            <element signature="e#2237#2246#0" expanded="true" />
+            <element signature="e#2351#2360#0" expanded="true" />
+            <element signature="e#2444#2453#0" expanded="true" />
+            <element signature="e#2893#2902#0" expanded="true" />
+            <element signature="e#3671#3680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsVector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="202" column="23" lean-forward="false" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
+          <folding>
+            <element signature="e#1943#1962#0" expanded="true" />
+            <element signature="e#2046#2055#0" expanded="true" />
+            <element signature="e#2089#2101#0" expanded="true" />
+            <element signature="e#2167#2176#0" expanded="true" />
+            <element signature="e#3994#4003#0" expanded="true" />
+            <element signature="e#4084#4093#0" expanded="true" />
+            <element signature="e#4174#4183#0" expanded="true" />
+            <element signature="e#4263#4272#0" expanded="true" />
+            <element signature="e#4352#4361#0" expanded="true" />
+            <element signature="e#4442#4451#0" expanded="true" />
+            <element signature="e#4533#4542#0" expanded="true" />
+            <element signature="e#4835#4844#0" expanded="true" />
+            <element signature="e#4979#4988#0" expanded="true" />
+            <element signature="e#5294#5303#0" expanded="true" />
+            <element signature="e#5526#5535#0" expanded="true" />
+            <element signature="e#5697#5706#0" expanded="true" />
+            <element signature="e#6102#6111#0" expanded="true" />
+            <element signature="e#6352#6361#0" expanded="true" />
+            <element signature="e#6614#6623#0" expanded="true" />
+            <element signature="e#6856#6865#0" expanded="true" />
+            <element signature="e#7110#7119#0" expanded="true" />
+            <element signature="e#7206#7215#0" expanded="true" />
+            <element signature="e#7540#7549#0" expanded="true" />
+            <element signature="e#7661#7670#0" expanded="true" />
+            <element signature="e#7998#8007#0" expanded="true" />
+            <element signature="e#8889#8898#0" expanded="true" />
+            <element signature="e#10505#10514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="1" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsVector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2839">
           <caret line="167" column="23" lean-forward="true" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
           <folding>
             <element signature="e#1943#1962#0" expanded="true" />
-            <element signature="e#2020#2029#0" expanded="true" />
-            <element signature="e#2063#2075#0" expanded="true" />
-            <element signature="e#2141#2150#0" expanded="true" />
-            <element signature="e#3961#3970#0" expanded="true" />
-            <element signature="e#4051#4060#0" expanded="true" />
-            <element signature="e#4141#4150#0" expanded="true" />
-            <element signature="e#4230#4239#0" expanded="true" />
-            <element signature="e#4319#4328#0" expanded="true" />
-            <element signature="e#4409#4418#0" expanded="true" />
-            <element signature="e#4500#4509#0" expanded="true" />
-            <element signature="e#4802#4811#0" expanded="true" />
-            <element signature="e#4946#4955#0" expanded="true" />
-            <element signature="e#5261#5270#0" expanded="true" />
-            <element signature="e#5406#5415#0" expanded="true" />
-            <element signature="e#5577#5586#0" expanded="true" />
-            <element signature="e#5982#5991#0" expanded="true" />
-            <element signature="e#6221#6230#0" expanded="true" />
-            <element signature="e#6472#6481#0" expanded="true" />
-            <element signature="e#6703#6712#0" expanded="true" />
-            <element signature="e#6946#6955#0" expanded="true" />
-            <element signature="e#7031#7040#0" expanded="true" />
-            <element signature="e#7365#7374#0" expanded="true" />
-            <element signature="e#7475#7484#0" expanded="true" />
-            <element signature="e#7812#7821#0" expanded="true" />
-            <element signature="e#8725#8734#0" expanded="true" />
-            <element signature="e#10352#10361#0" expanded="true" />
+            <element signature="e#2046#2055#0" expanded="true" />
+            <element signature="e#2089#2101#0" expanded="true" />
+            <element signature="e#2167#2176#0" expanded="true" />
+            <element signature="e#3994#4003#0" expanded="true" />
+            <element signature="e#4084#4093#0" expanded="true" />
+            <element signature="e#4174#4183#0" expanded="true" />
+            <element signature="e#4263#4272#0" expanded="true" />
+            <element signature="e#4352#4361#0" expanded="true" />
+            <element signature="e#4442#4451#0" expanded="true" />
+            <element signature="e#4533#4542#0" expanded="true" />
+            <element signature="e#4835#4844#0" expanded="true" />
+            <element signature="e#4979#4988#0" expanded="true" />
+            <element signature="e#5294#5303#0" expanded="true" />
+            <element signature="e#5526#5535#0" expanded="true" />
+            <element signature="e#5697#5706#0" expanded="true" />
+            <element signature="e#6102#6111#0" expanded="true" />
+            <element signature="e#6352#6361#0" expanded="true" />
+            <element signature="e#6614#6623#0" expanded="true" />
+            <element signature="e#6856#6865#0" expanded="true" />
+            <element signature="e#7110#7119#0" expanded="true" />
+            <element signature="e#7206#7215#0" expanded="true" />
+            <element signature="e#7540#7549#0" expanded="true" />
+            <element signature="e#7661#7670#0" expanded="true" />
+            <element signature="e#7998#8007#0" expanded="true" />
+            <element signature="e#8889#8898#0" expanded="true" />
+            <element signature="e#10505#10514#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GsArray.h">
+    <entry file="file://$PROJECT_DIR$/source/headers/GsArray.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding>
-            <element signature="e#3103#3125#0" expanded="true" />
-            <element signature="e#3218#3240#0" expanded="true" />
-            <element signature="e#3693#3715#0" expanded="true" />
-            <element signature="e#3821#3843#0" expanded="true" />
-            <element signature="e#3992#4014#0" expanded="true" />
-            <element signature="e#4175#4197#0" expanded="true" />
-            <element signature="e#4338#4360#0" expanded="true" />
-            <element signature="e#4513#4535#0" expanded="true" />
-            <element signature="e#4716#4738#0" expanded="true" />
-            <element signature="e#4938#4960#0" expanded="true" />
+            <element signature="e#1670#1697#0" expanded="true" />
+            <element signature="e#4204#4226#0" expanded="true" />
+            <element signature="e#4319#4341#0" expanded="true" />
+            <element signature="e#4828#4850#0" expanded="true" />
+            <element signature="e#4967#4989#0" expanded="true" />
+            <element signature="e#5149#5171#0" expanded="true" />
+            <element signature="e#5343#5365#0" expanded="true" />
+            <element signature="e#5517#5539#0" expanded="true" />
+            <element signature="e#5703#5725#0" expanded="true" />
+            <element signature="e#5906#5928#0" expanded="true" />
+            <element signature="e#6128#6150#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GsStack.h">
+    <entry file="file://$PROJECT_DIR$/source/headers/GsStack.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="2" lean-forward="false" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="2" />
           <folding>
             <element signature="e#98#117#0" expanded="true" />
-            <element signature="e#165#174#0" expanded="true" />
-            <element signature="e#309#318#0" expanded="true" />
-            <element signature="e#1197#1206#0" expanded="true" />
-            <element signature="e#1295#1304#0" expanded="true" />
-            <element signature="e#1556#1565#0" expanded="true" />
-            <element signature="e#1693#1702#0" expanded="true" />
-            <element signature="e#2012#2021#0" expanded="true" />
-            <element signature="e#2201#2210#0" expanded="true" />
-            <element signature="e#2304#2313#0" expanded="true" />
-            <element signature="e#2393#2402#0" expanded="true" />
-            <element signature="e#2817#2826#0" expanded="true" />
-            <element signature="e#3617#3626#0" expanded="true" />
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#318#327#0" expanded="true" />
+            <element signature="e#1206#1215#0" expanded="true" />
+            <element signature="e#1304#1313#0" expanded="true" />
+            <element signature="e#1565#1574#0" expanded="true" />
+            <element signature="e#1702#1711#0" expanded="true" />
+            <element signature="e#2021#2030#0" expanded="true" />
+            <element signature="e#2237#2246#0" expanded="true" />
+            <element signature="e#2351#2360#0" expanded="true" />
+            <element signature="e#2444#2453#0" expanded="true" />
+            <element signature="e#2893#2902#0" expanded="true" />
+            <element signature="e#3671#3680#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -597,29 +1159,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates.cpp" />
     <entry file="file://$PROJECT_DIR$/GsVector.cpp" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="457" column="0" lean-forward="false" selection-start-line="457" selection-start-column="0" selection-end-line="457" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GsIterator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/array">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-398">
@@ -627,99 +1166,207 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GTL.dir/main.cpp.o">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6683">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch..txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1141">
+          <caret line="153" column="15" lean-forward="false" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake/FindSDL2.cmake" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="1352" column="33" lean-forward="false" selection-start-line="1352" selection-start-column="33" selection-end-line="1352" selection-end-column="33" />
+        <state relative-caret-position="-138">
+          <caret line="288" column="26" lean-forward="false" selection-start-line="288" selection-start-column="26" selection-end-line="288" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/exception">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="93" column="4" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1574">
+          <caret line="126" column="9" lean-forward="false" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1654">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdexcept">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2291">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsIterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
-            <element signature="e#15361#15390#0" expanded="false" />
+            <element signature="e#134#143#0" expanded="true" />
+            <element signature="e#161#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GsArray.h">
+    <entry file="file://$PROJECT_DIR$/source/headers/GsVector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3553">
-          <caret line="209" column="37" lean-forward="false" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="37" />
-          <folding>
-            <element signature="e#3103#3125#0" expanded="true" />
-            <element signature="e#3218#3240#0" expanded="true" />
-            <element signature="e#3693#3715#0" expanded="true" />
-            <element signature="e#3821#3843#0" expanded="true" />
-            <element signature="e#3992#4014#0" expanded="true" />
-            <element signature="e#4175#4197#0" expanded="true" />
-            <element signature="e#4338#4360#0" expanded="true" />
-            <element signature="e#4513#4535#0" expanded="true" />
-            <element signature="e#4716#4738#0" expanded="true" />
-            <element signature="e#4938#4960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GsStack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="75" column="14" lean-forward="false" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
-          <folding>
-            <element signature="e#98#117#0" expanded="true" />
-            <element signature="e#165#174#0" expanded="true" />
-            <element signature="e#309#318#0" expanded="true" />
-            <element signature="e#1197#1206#0" expanded="true" />
-            <element signature="e#1295#1304#0" expanded="true" />
-            <element signature="e#1556#1565#0" expanded="true" />
-            <element signature="e#1693#1702#0" expanded="true" />
-            <element signature="e#2012#2021#0" expanded="true" />
-            <element signature="e#2201#2210#0" expanded="true" />
-            <element signature="e#2304#2313#0" expanded="true" />
-            <element signature="e#2393#2402#0" expanded="true" />
-            <element signature="e#2817#2826#0" expanded="true" />
-            <element signature="e#3617#3626#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GsVector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3299">
-          <caret line="202" column="23" lean-forward="false" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
+        <state relative-caret-position="3087">
+          <caret line="238" column="28" lean-forward="true" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
           <folding>
             <element signature="e#1943#1962#0" expanded="true" />
-            <element signature="e#2020#2029#0" expanded="true" />
-            <element signature="e#2063#2075#0" expanded="true" />
-            <element signature="e#2141#2150#0" expanded="true" />
-            <element signature="e#3961#3970#0" expanded="true" />
-            <element signature="e#4051#4060#0" expanded="true" />
-            <element signature="e#4141#4150#0" expanded="true" />
-            <element signature="e#4230#4239#0" expanded="true" />
-            <element signature="e#4319#4328#0" expanded="true" />
-            <element signature="e#4409#4418#0" expanded="true" />
-            <element signature="e#4500#4509#0" expanded="true" />
-            <element signature="e#4802#4811#0" expanded="true" />
-            <element signature="e#4946#4955#0" expanded="true" />
-            <element signature="e#5261#5270#0" expanded="true" />
-            <element signature="e#5406#5415#0" expanded="true" />
-            <element signature="e#5577#5586#0" expanded="true" />
-            <element signature="e#5982#5991#0" expanded="true" />
-            <element signature="e#6221#6230#0" expanded="true" />
-            <element signature="e#6472#6481#0" expanded="true" />
-            <element signature="e#6703#6712#0" expanded="true" />
-            <element signature="e#6946#6955#0" expanded="true" />
-            <element signature="e#7031#7040#0" expanded="true" />
-            <element signature="e#7365#7374#0" expanded="true" />
-            <element signature="e#7475#7484#0" expanded="true" />
-            <element signature="e#7812#7821#0" expanded="true" />
-            <element signature="e#8725#8734#0" expanded="true" />
-            <element signature="e#10352#10361#0" expanded="true" />
+            <element signature="e#2046#2055#0" expanded="true" />
+            <element signature="e#2089#2101#0" expanded="true" />
+            <element signature="e#2167#2176#0" expanded="true" />
+            <element signature="e#3994#4003#0" expanded="true" />
+            <element signature="e#4084#4093#0" expanded="true" />
+            <element signature="e#4174#4183#0" expanded="true" />
+            <element signature="e#4263#4272#0" expanded="true" />
+            <element signature="e#4352#4361#0" expanded="true" />
+            <element signature="e#4442#4451#0" expanded="true" />
+            <element signature="e#4533#4542#0" expanded="true" />
+            <element signature="e#4835#4844#0" expanded="true" />
+            <element signature="e#4979#4988#0" expanded="true" />
+            <element signature="e#5294#5303#0" expanded="true" />
+            <element signature="e#5526#5535#0" expanded="true" />
+            <element signature="e#5697#5706#0" expanded="true" />
+            <element signature="e#6102#6111#0" expanded="true" />
+            <element signature="e#6352#6361#0" expanded="true" />
+            <element signature="e#6614#6623#0" expanded="true" />
+            <element signature="e#6856#6865#0" expanded="true" />
+            <element signature="e#7110#7119#0" expanded="true" />
+            <element signature="e#7206#7215#0" expanded="true" />
+            <element signature="e#7540#7549#0" expanded="true" />
+            <element signature="e#7661#7670#0" expanded="true" />
+            <element signature="e#7998#8007#0" expanded="true" />
+            <element signature="e#8889#8898#0" expanded="true" />
+            <element signature="e#10505#10514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="38" lean-forward="false" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+          <folding>
+            <element signature="e#1670#1697#0" expanded="true" />
+            <element signature="e#4204#4226#0" expanded="true" />
+            <element signature="e#4319#4341#0" expanded="true" />
+            <element signature="e#4828#4850#0" expanded="true" />
+            <element signature="e#4967#4989#0" expanded="true" />
+            <element signature="e#5149#5171#0" expanded="true" />
+            <element signature="e#5343#5365#0" expanded="true" />
+            <element signature="e#5517#5539#0" expanded="true" />
+            <element signature="e#5703#5725#0" expanded="true" />
+            <element signature="e#5906#5928#0" expanded="true" />
+            <element signature="e#6128#6150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8720">
+          <caret line="1509" column="23" lean-forward="false" selection-start-line="1509" selection-start-column="23" selection-end-line="1509" selection-end-column="23" />
+          <folding>
+            <element signature="e#13772#13783#0" expanded="true" />
+            <element signature="e#13823#13834#0" expanded="true" />
+            <element signature="e#13973#13992#0" expanded="true" />
+            <element signature="e#14037#14050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/GsStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="10" lean-forward="false" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+          <folding>
+            <element signature="e#98#117#0" expanded="true" />
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#318#327#0" expanded="true" />
+            <element signature="e#1206#1215#0" expanded="true" />
+            <element signature="e#1304#1313#0" expanded="true" />
+            <element signature="e#1565#1574#0" expanded="true" />
+            <element signature="e#1702#1711#0" expanded="true" />
+            <element signature="e#2021#2030#0" expanded="true" />
+            <element signature="e#2237#2246#0" expanded="true" />
+            <element signature="e#2351#2360#0" expanded="true" />
+            <element signature="e#2444#2453#0" expanded="true" />
+            <element signature="e#2893#2902#0" expanded="true" />
+            <element signature="e#3671#3680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/src/IGsException.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/headers/IGsException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#106#126#0" expanded="true" />
           </folding>
         </state>
       </provider>

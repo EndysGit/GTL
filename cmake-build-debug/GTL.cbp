@@ -82,19 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsArray.h">
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/source/headers/GsArray.h">
 			<Option target="GTL"/>
 		</Unit>
-		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsIterator.h">
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/source/headers/GsIterator.h">
 			<Option target="GTL"/>
 		</Unit>
-		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsStack.h">
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/source/headers/GsStack.h">
 			<Option target="GTL"/>
 		</Unit>
-		<Unit filename="/Users/Gleb/CLionProjects/GTL/GsVector.h">
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/source/headers/GsVector.h">
 			<Option target="GTL"/>
 		</Unit>
-		<Unit filename="/Users/Gleb/CLionProjects/GTL/main.cpp">
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/source/headers/IGsException.h">
+			<Option target="GTL"/>
+		</Unit>
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/source/src/IGsException.cpp">
+			<Option target="GTL"/>
+		</Unit>
+		<Unit filename="/Users/Gleb/CLionProjects/GTL/source/src/main.cpp">
 			<Option target="GTL"/>
 		</Unit>
 		<Unit filename="/Users/Gleb/CLionProjects/GTL/CMakeLists.txt">

@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
-#include "GsVector.h"
+#include "../headers/GsVector.h"
 #include <iomanip>
-#include "GsArray.h"
-#include "GsStack.h"
+#include "../headers/GsArray.h"
+#include "../headers/GsStack.h"
 #include <chrono>
-
+#include <sstream>
 
 using namespace gtl;
 
@@ -105,8 +105,8 @@ void testGsVector()
     vec3.pop_back();
 }
 
-int main() {
-    testGsVector();
+void testGsStack()
+{
     GsStack<int> gsstack;
 
     std::cout << std::boolalpha << gsstack.isEmpty() << ' ' << gsstack.size() << '\n';
@@ -119,6 +119,16 @@ int main() {
     for (int i(0); i < 10; ++i)
         gsstack.pop();
     std::cout << std::boolalpha << gsstack.isEmpty() << ' ' << gsstack.size() <<  '\n';
+}
 
+int main() {
+    auto squar = [](int x) -> int { return x * x; };
+    squar(4);
+    std::stringstream ss;
+    ss << 5 << '.' << 6;
+    std::cout << ss.str();
+
+    //testGsVector();
+    //testGsStack();
     return 0;
 }

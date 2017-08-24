@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,35 +6,53 @@
 
 #IncludeRegexTransform: 
 
-/Users/Gleb/CLionProjects/GTL/GsArray.h
+/Users/Gleb/CLionProjects/GTL/source/headers/GsArray.h
 initializer_list
--
-
-/Users/Gleb/CLionProjects/GTL/GsStack.h
-iostream
--
-vector
--
-
-/Users/Gleb/CLionProjects/GTL/GsVector.h
-iostream
--
-initializer_list
--
-
-/Users/Gleb/CLionProjects/GTL/main.cpp
-iostream
--
-vector
--
-GsVector.h
-/Users/Gleb/CLionProjects/GTL/GsVector.h
-iomanip
 -
 GsArray.h
-/Users/Gleb/CLionProjects/GTL/GsArray.h
-GsStack.h
-/Users/Gleb/CLionProjects/GTL/GsStack.h
+/Users/Gleb/CLionProjects/GTL/source/headers/GsArray.h
+
+/Users/Gleb/CLionProjects/GTL/source/headers/GsStack.h
+iostream
+-
+IGsException.h
+/Users/Gleb/CLionProjects/GTL/source/headers/IGsException.h
+
+/Users/Gleb/CLionProjects/GTL/source/headers/GsVector.h
+iostream
+-
+initializer_list
+-
+IGsException.h
+/Users/Gleb/CLionProjects/GTL/source/headers/IGsException.h
+
+/Users/Gleb/CLionProjects/GTL/source/headers/IGsException.h
+exception
+-
+string
+-
+iostream
+-
+
+/Users/Gleb/CLionProjects/GTL/source/src/IGsException.cpp
+../headers/IGsException.h
+/Users/Gleb/CLionProjects/GTL/source/headers/IGsException.h
+
+/Users/Gleb/CLionProjects/GTL/source/src/main.cpp
+iostream
+-
+vector
+-
+../headers/GsVector.h
+/Users/Gleb/CLionProjects/GTL/source/headers/GsVector.h
+iomanip
+-
+../headers/GsArray.h
+/Users/Gleb/CLionProjects/GTL/source/headers/GsArray.h
+../headers/GsStack.h
+/Users/Gleb/CLionProjects/GTL/source/headers/GsStack.h
 chrono
+-
+sstream
 -
 

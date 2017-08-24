@@ -8,6 +8,9 @@
 #include <iterator>
 
 template <class T>
+struct
+
+template <class T>
 class gs_iterator_base
 {
 

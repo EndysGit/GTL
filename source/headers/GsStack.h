@@ -6,9 +6,10 @@
 #define GTL_GSSTACK_H
 
 #include <iostream>
-#include <vector>
+#include "IGsException.h"
 
 namespace gtl {
+
     template<class T>
     struct Node {
         T data;
@@ -99,23 +100,25 @@ namespace gtl {
     typename GsStack<T>::reference
     GsStack<T>::top() const {
         if (isEmpty())
-            throw "Stack is already empty";
+            throw gtl::GsConteinerUnderflow("Stack is already empty");
         return m_end->data;
     }
 
     template<class T>
+    inline
     bool
     GsStack<T>::isEmpty() const { return !static_cast<bool>(m_size); }
 
     template<class T>
     inline
-    size_t GsStack<T>::size() const { return m_size; }
+    size_t
+    GsStack<T>::size() const { return m_size; }
 
     template<class T>
     void
     GsStack<T>::pop() {
         if (isEmpty()) {
-            throw "Stack is already empty\n";
+            throw gtl::GsConteinerUnderflow("Stack is already empty");
         }
 
         --m_size;
@@ -138,7 +141,7 @@ namespace gtl {
         if (isEmpty()) {
             m_begin = new(std::nothrow) node_value;
             if (!m_begin)
-                throw "Failed to allocate memory";
+                throw std::bad_alloc();
 
             m_begin->data = value;
             m_begin->next_node = nullptr;
@@ -150,7 +153,7 @@ namespace gtl {
         } else {
             m_end->next_node = new(std::nothrow) node_value;
             if (!m_end->next_node)
-                throw "Failed to allocate memory";
+                throw std::bad_alloc();
 
             m_end->next_node->data = value;
             m_end->next_node->next_node = nullptr;

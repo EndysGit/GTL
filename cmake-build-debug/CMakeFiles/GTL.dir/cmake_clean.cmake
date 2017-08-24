@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GTL.dir/main.cpp.o"
+  "CMakeFiles/GTL.dir/source/src/main.cpp.o"
+  "CMakeFiles/GTL.dir/source/src/IGsException.cpp.o"
   "GTL.pdb"
   "GTL"
 )

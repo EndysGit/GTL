@@ -86,6 +86,7 @@ namespace gtl
 
 #include <iostream>
 #include <initializer_list>
+#include "IGsException.h"
 
 namespace gtl {
     template<class T>
@@ -118,7 +119,7 @@ namespace gtl {
 
         virtual ~GsVector() { delete[] m_data; }
 
-        GsVector &operator=(GsVector vector);
+        GsVector &operator=(const GsVector &vector);
 
         GsVector &operator=(GsVector &&vector);
 
@@ -217,8 +218,9 @@ namespace gtl {
 
     template<class T>
     GsVector<T>&
-    GsVector<T>::operator=(GsVector vector) {
-        gsSwap(*this, vector);
+    GsVector<T>::operator=(const GsVector &vector) {
+        for (ptrdiff_t index(0); index < vector.m_length; ++index)
+            this->push_back(vector[index]);
         return *this;
     }
 
@@ -249,6 +251,7 @@ namespace gtl {
     }
 
     template<class T>
+    inline
     typename GsVector<T>::reference
     GsVector<T>::operator[](size_t size) {
         if (size < 0 && size >= m_length)
@@ -258,6 +261,7 @@ namespace gtl {
     }
 
     template<class T>
+    inline
     typename GsVector<T>::const_reference
     GsVector<T>::operator[](size_t size) const {
         if (size < 0 && size >= m_length)
@@ -267,6 +271,7 @@ namespace gtl {
     }
 
     template<class T>
+    inline
     typename GsVector<T>::reference
     GsVector<T>::at(size_t size) {
         if (size < 0 && size >= m_length)
@@ -276,6 +281,7 @@ namespace gtl {
     }
 
     template<class T>
+    inline
     typename GsVector<T>::const_reference
     GsVector<T>::at(size_t size) const {
         if (size < 0 && size >= m_length)
@@ -285,6 +291,7 @@ namespace gtl {
     }
 
     template<class T>
+    inline
     size_t
     GsVector<T>::size() const { return m_length; }
 
@@ -303,6 +310,7 @@ namespace gtl {
     }
 
     template<class T>
+    inline
     size_t
     GsVector<T>::capacity() const { return m_capacity; }
 
@@ -326,7 +334,7 @@ namespace gtl {
 
     template<class T>
     void
-    GsVector<T>::insert(size_t into, typename GsVector<T>::const_reference inserted) {
+    GsVector<T>::insert(size_t into, const_reference inserted) {
         if (into > m_length)
             throw std::out_of_range("Index out of range");
 
@@ -360,7 +368,7 @@ namespace gtl {
 // TODO : complete
     template<class T>
     void
-    GsVector<T>::insert(size_t into, typename GsVector<T>::r_reference inserted)
+    GsVector<T>::insert(size_t into, r_reference inserted)
     {
         if (into > m_length)
             throw std::out_of_range("Index out of range");
@@ -415,10 +423,12 @@ namespace gtl {
     }
 
     template<class T>
+    inline
     bool
     GsVector<T>::isEmpty() { return (!m_length) ? true : false; }
 
     template <class T>
+    inline
     void
     GsVector<T>::clear()
     {
@@ -441,13 +451,15 @@ namespace gtl {
 
     template<class T>
     void
-    GsVector<T>::push_back(typename GsVector<T>::const_reference element) {
+    GsVector<T>::push_back(const_reference element)
+    {
         insert(m_length, element);
     }
 
     template<class T>
     void
-    GsVector<T>::push_back(typename GsVector<T>::r_reference element) {
+    GsVector<T>::push_back(r_reference element)
+    {
         insert(m_length, element);
     }
 
@@ -455,7 +467,7 @@ namespace gtl {
     typename GsVector<T>::value_type
     GsVector<T>::pop_back() {
         if (isEmpty())
-            throw std::out_of_range("GsVector is empty");
+            throw gtl::GsConteinerUnderflow("Vector is already empty");
 
         if (m_length == 1) {
 
@@ -473,6 +485,7 @@ namespace gtl {
 
 
     template<class T>
+    inline
     bool
     operator==(const GsVector<T> &v1, const GsVector<T> &v2) {
         if (v1.size() == v2.size())
@@ -483,30 +496,35 @@ namespace gtl {
     }
 
     template<class T>
+    inline
     bool
     operator!=(const GsVector<T> &v1, const GsVector<T> &v2) {
         return !(v1 == v2);
     }
 
     template<class T>
+    inline
     bool
     operator<(const GsVector<T> &v1, const GsVector<T> &v2) {
         return v1.size() < v2.size();
     }
 
     template<class T>
+    inline
     bool
     operator>(const GsVector<T> &v1, const GsVector<T> &v2) {
         return v1.size() > v2.size();
     }
 
     template<class T>
+    inline
     bool
     operator<=(const GsVector<T> &v1, const GsVector<T> &v2) {
         return v1.size() <= v2.size();
     }
 
     template<class T>
+    inline
     bool
     operator>=(const GsVector<T> &v1, const GsVector<T> &v2) {
         return v1.size() >= v2.size();
