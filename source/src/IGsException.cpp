@@ -6,22 +6,29 @@
 
 namespace gtl
 {
-    IGsException::IGsException() {}
-    IGsException::~IGsException() {}
+    GsException::GsException() {}
+    GsException::~GsException() {}
+    const char* GsException::what() const
+    {
+        return "Exception";
+    }
+
+
 
     GsConteinerUnderflow::GsConteinerUnderflow(const std::string &exception_definition)
-            : m_exeption_definition{exception_definition} {}
+            : m_exeption_message{exception_definition} {}
 
     GsConteinerUnderflow::GsConteinerUnderflow(const char *exception_definition)
-            : m_exeption_definition{exception_definition} {}
+            : m_exeption_message{exception_definition} {}
 
     GsConteinerUnderflow::GsConteinerUnderflow(const GsConteinerUnderflow &gsConteinerUnderflow)
-            : m_exeption_definition{gsConteinerUnderflow.m_exeption_definition} {}
+            : m_exeption_message{gsConteinerUnderflow.m_exeption_message} {}
 
     GsConteinerUnderflow::~GsConteinerUnderflow() {}
 
     const char *
-    GsConteinerUnderflow::what() const {
-        printf("%s", m_exeption_definition.c_str());
+    GsConteinerUnderflow::what() const
+    {
+        return m_exeption_message.c_str();
     }
 }

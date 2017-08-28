@@ -83,25 +83,25 @@ namespace gtl
         virtual const char *what() const;
 
     private:
-        std::string m_exception_definition;
+        std::string m_exception_message;
     };
 
     GsArrayAssignException::GsArrayAssignException(const std::string &exception_definition)
-            : m_exception_definition{exception_definition}
+            : m_exception_message{exception_definition}
     {}
 
     GsArrayAssignException::GsArrayAssignException(const char *exception_definition)
-            : m_exception_definition{exception_definition}
+            : m_exception_message{exception_definition}
     {}
 
     GsArrayAssignException::GsArrayAssignException(const GsArrayAssignException &gsArrayAssignException)
-            : m_exception_definition{gsArrayAssignException.m_exception_definition}
+            : m_exception_message{gsArrayAssignException.m_exception_message}
     {}
 
     const char*
     GsArrayAssignException::what() const
     {
-        printf("%s", m_exception_definition.c_str());
+        return m_exception_message.c_str();
     }
 
 

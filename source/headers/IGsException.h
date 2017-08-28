@@ -15,14 +15,20 @@ namespace gtl {
     class IGsException
     {
     public:
-        IGsException();
-
-        virtual ~IGsException() = 0;
-
         virtual const char *what() const = 0;
     };
 
-    class GsConteinerUnderflow : public IGsException
+    class GsException : public IGsException
+    {
+    public:
+        GsException();
+
+        virtual ~GsException();
+
+        virtual const char *what() const ;
+    };
+
+    class GsConteinerUnderflow : public GsException
     {
     public:
         explicit GsConteinerUnderflow(const std::string &exception_definition);
@@ -35,7 +41,7 @@ namespace gtl {
         virtual const char * what() const;
 
     private:
-        std::string m_exeption_definition;
+        std::string m_exeption_message;
     };
 
 }
